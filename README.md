@@ -1,4 +1,4 @@
-# YumSearch
+# Members app
 
 A very simple application to manage a database of members (of a club) using Backbone.js and MongoDB.
 
