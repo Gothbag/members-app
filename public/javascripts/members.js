@@ -3,10 +3,10 @@ var app = app || {};
 
 (function () {
 
-	var members = Backbone.Collection.extend({
-		model: app.member,
+	var Members = Backbone.Collection.extend({
+		model: app.Member,
 		url: "/api/members"
 	});
 
-	app.members = new members();
+	app.members = new Members();
 })();

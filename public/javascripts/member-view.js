@@ -8,7 +8,7 @@ _.templateSettings = {
 
 (function ($) {
 	"use strict";
-	app.memberView = Backbone.View.extend({
+	app.MemberView = Backbone.View.extend({
 		tagName: "li", //we"re using a list tag
 
 		template: _.template($("#item-template").html()),

@@ -25,7 +25,7 @@ var app = app || {};
 		// Add a single member item to the list by creating a view for it, and
 		// appending its element to the <ul> .
 		addOne: function (member) {
-			var view = new app.memberView({model: member});
+			var view = new app.MemberView({model: member});
 			this.$list.append(view.render().el);
 		},
 		//add all members in the members collection at once
@@ -34,7 +34,7 @@ var app = app || {};
 			app.members.each(this.addOne, this);
 		},
 		addNew: function () {
-			var member = new app.member();
+			var member = new app.Member();
 			this.addOne(member);
 		}
 

@@ -4,7 +4,7 @@ var app = app || {};
 (function () {
 	"use strict";
 	//member model
-	app.member = Backbone.Model.extend({
+	app.Member = Backbone.Model.extend({
 		defaults: {
 			name: "Member",
 			age: 0,
